@@ -49,18 +49,16 @@ function Topproducts() {
         />
       </div>
 
-      {/* Grid wrapper (smaller width for uniform vertical gaps) */}
+      {/* Grid */}
       <div className="flex justify-center">
         <div className="grid grid-cols-3 gap-y-3 gap-x-3 w-[50%]">
           {products.map((product, index) => (
             <div
               key={index}
               className="w-[270px] h-[340px] bg-cover bg-center flex flex-col justify-between p-4 font-sans"
-              style={{
-                backgroundImage: "url('/images/Rectangle 72.png')",
-              }}
+              style={{ backgroundImage: "url('/images/Rectangle 72.png')" }}
             >
-              {/* Image */}
+              {/* Product Image */}
               <div className="flex justify-center items-center h-[55%]">
                 <img
                   src={product.img}
@@ -71,28 +69,19 @@ function Topproducts() {
 
               {/* Info */}
               <div className="text-white">
-                {/* Row 1 */}
                 <div className="flex justify-between items-center relative">
                   <span className="text-lg font-semibold">{product.price}</span>
-
-                  {/* Circular ! button */}
                   <div className="group relative">
                     <div className="w-5 h-5 flex items-center justify-center bg-red-400 text-white rounded-full text-xs cursor-pointer">
                       !
                     </div>
-
-                    {/* Tooltip */}
                     <div className="absolute bottom-7 right-0 hidden group-hover:block bg-white text-black text-xs p-2 shadow w-[160px]">
                       {product.info}
                     </div>
                   </div>
                 </div>
-
-                {/* Row 2 */}
                 <div className="flex justify-between items-center mt-2">
                   <span className="text-lg font-medium">{product.name}</span>
-
-                  {/* Rectangular Add button */}
                   <button className="bg-red-400 hover:bg-red-500 text-white px-3 py-1 text-sm">
                     Add +
                   </button>

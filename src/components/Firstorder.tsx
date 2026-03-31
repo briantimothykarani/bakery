@@ -10,10 +10,7 @@ function Firstorder() {
           backgroundPosition: "center",
         }}
       >
-        {/* Overlay for readability */}
         <div className="absolute inset-0 bg-white/10" />
-
-        {/* Content */}
         <div className="relative z-10 flex flex-col items-center text-center px-6 py-10">
           <h2
             style={{
@@ -30,7 +27,6 @@ function Firstorder() {
             <br />
             First Order
           </h2>
-
           <p
             style={{
               color: "#555",
@@ -42,7 +38,6 @@ function Firstorder() {
           >
             Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibenjgg.
           </p>
-
           <button
             style={{
               backgroundColor: "#7B3A2E",
