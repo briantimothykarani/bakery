@@ -4,10 +4,16 @@ function Firstorder() {
       <div
         className="relative w-full max-w-[1200px] min-h-[220px] flex items-center justify-center"
         style={{
-          background: "#f5f0eb",
-          backgroundImage: "url('/images/Group_497.png')",
-          backgroundSize: "cover",
+          backgroundSize: "100% 100%",
+          backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
+          width: "100%",
+          minHeight: "280px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          padding: "60px 48px",
+          boxSizing: "border-box",
         }}
       >
         <div className="absolute inset-0 bg-white/10" />

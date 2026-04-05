@@ -2,7 +2,7 @@ function AboutBanner() {
   return (
     <section
       style={{
-        backgroundImage: "url('/images/Rectangle 72.png')",
+        backgroundImage: "url('/images/Rectangle 41.png')",
         backgroundSize: "100% 100%",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",

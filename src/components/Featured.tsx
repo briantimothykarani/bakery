@@ -8,19 +8,13 @@ const Featured = () => {
   return (
     <section className="py-12 px-4">
       {/* Title */}
-      <h2
-        style={{
-          fontFamily: "'Georgia', 'Times New Roman', serif",
-          fontStyle: "italic",
-          fontSize: "clamp(1.8rem, 3vw, 2.4rem)",
-          fontWeight: "700",
-          textAlign: "center",
-          marginBottom: "40px",
-          color: "#1a1a1a",
-        }}
-      >
-        Featured Treats
-      </h2>
+      <div className="flex justify-center items-center py-10">
+        <img
+          src="/images/Featured Treats.png"
+          alt="Top Products"
+          className="max-w-[260px]"
+        />
+      </div>
 
       <div className="flex justify-center">
         <div className="w-3/4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">

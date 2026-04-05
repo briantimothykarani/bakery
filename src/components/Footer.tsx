@@ -8,6 +8,8 @@ function Footer() {
         backgroundPosition: "center",
         width: "100%",
         color: "#fff",
+        borderRadius: "0px",
+        overflow: "hidden",
       }}
     >
       {/* Top Bar */}
@@ -29,9 +31,9 @@ function Footer() {
           }}
         >
           <img
-            src="/images/logo.png"
+            src="/images/Modrino__2_-removebg-preview 1 (1).png"
             alt="Keithston Logo"
-            style={{ width: "60px", height: "60px", objectFit: "contain" }}
+            style={{ width: "80px", height: "80px", objectFit: "contain" }}
           />
           <span
             style={{
@@ -41,9 +43,7 @@ function Footer() {
               letterSpacing: "2px",
               marginTop: "4px",
             }}
-          >
-            KEITHSTON
-          </span>
+          ></span>
         </div>
 
         {/* Follow Us */}
@@ -237,12 +237,7 @@ function Footer() {
               {
                 date: "June 14, 2024",
                 title: "Puff pastry bliss.",
-                img: "/images/news1.png",
-              },
-              {
-                date: "June 14, 2024",
-                title: "Puff pastry bliss.",
-                img: "/images/news2.png",
+                img: "/images/Rectangle 158.png",
               },
             ].map((news, i) => (
               <div
